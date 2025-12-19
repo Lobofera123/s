@@ -1,4 +1,4 @@
-# s--Settings--
+--Settings--
 local ESP = {
     Enabled = false,
     Boxes = true,
@@ -284,7 +284,7 @@ function ESP:Add(obj, options)
     box.Components["Quad"] = Draw("Quad", {
         Thickness = self.Thickness,
         Color = color,
-        Transparency = 1,
+        Transparency = 0.2,
         Filled = false,
         Visible = self.Enabled and self.Boxes
     })
